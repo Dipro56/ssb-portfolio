@@ -69,8 +69,16 @@ export default function Header() {
 }
 
 function NavLink({ href, children }) {
+  const handleClick = (e) => {
+    e.preventDefault();
+    const targetSection = document.querySelector(href);
+    if (targetSection) {
+      targetSection.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
   return (
     <Link
+      onClick={handleClick}
       href={href}
       className="text-[#E2E8F0] hover:text-blue-600 font-medium transition-colors"
     >

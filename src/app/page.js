@@ -110,7 +110,7 @@ export default function Home() {
           <div className="md:w-1/3 flex justify-end ">
             <div className="bg-blue-900 relative  rounded-lg overflow-hidden border-[4px] border-white">
               <Image
-                src="/images/me.jpg"
+                src="/ssb-portfolio/images/me.jpg"
                 alt="Developer illustration"
                 width={350}
                 height={350}
@@ -122,7 +122,7 @@ export default function Home() {
       </section>
 
       {/* About Me Section */}
-      <section className="py-16 bg-[#0B1120]">
+      <section id={"about"} className="py-16 bg-[#0B1120]">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl text-[#38BDF8] font-bold text-center mb-12">{`<About Me/>`}</h2>
           <div className="max-w-3xl mx-auto mb-16">
@@ -163,7 +163,7 @@ export default function Home() {
       </section>
 
       {/* Technical Skills Section */}
-      <section className="py-16 bg-[#0F172A]">
+      <section id={"skills"} className="py-16 bg-[#0F172A]">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12 text-[#38BDF8]">{`<Technical Skills/>`}</h2>
           <div className="grid grid-cols-2 lg:grid-cols-5 gap-6 max-w-5xl mx-auto">
@@ -226,14 +226,14 @@ export default function Home() {
       </section>
 
       {/* Featured Projects Section */}
-      <section className="py-16 bg-[#0B1221]">
+      <section id={"projects"} className="py-16 bg-[#0B1221]">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12 text-[#38BDF8]">{`<Featured Projects/>`}</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <ProjectCard
               title="Shadhin"
               description="Largest audio platform of Bangladesh. User can enjoy different kind of audio contents here."
-              image="/images/shadhin_project.png"
+              image="/ssb-portfolio/images/shadhin_project.png"
               tags={["Javascript", "React", "Next.js", "Zustand"]}
               liveLink={"https://shadhinmusic.com/"}
               stats={{ github: 25, stars: 42, forks: 15 }}
@@ -243,7 +243,7 @@ export default function Home() {
             <ProjectCard
               title="Infiniti"
               description="Infiniti is a document processing software. It is used for document editing and storing. "
-              image="/images/infinite.png"
+              image="/ssb-portfolio/images/infinite.png"
               tags={["React", "Typescript", "Redux"]}
               stats={{ github: 18, stars: 36, forks: 12 }}
               liveLink={"http://100.42.178.85:3002/"}
@@ -256,7 +256,7 @@ export default function Home() {
             <ProjectCard
               title="Win"
               description="Win is a quiz platform. User can enjoy different types of quiz here. This platform is also used by different types of telco."
-              image="/images/win.png"
+              image="/ssb-portfolio/images/win.png"
               tags={["Javascript", "React", "Next Js", "Redux"]}
               stats={{ github: 18, stars: 36, forks: 12 }}
               liveLink={"https://win2gain.com"}
@@ -267,7 +267,7 @@ export default function Home() {
             <ProjectCard
               title="Shadhin CMS"
               description="This project is for data monitoring and observing different types of revenue for shadhin company."
-              image="/images/shadhincms.png"
+              image="/ssb-portfolio/images/shadhincms.png"
               tags={["Javascript", "React", "Redux"]}
               stats={{ github: 18, stars: 36, forks: 12 }}
               liveLink={"http://shadhincms.shadhin.co/"}
@@ -278,7 +278,7 @@ export default function Home() {
             <ProjectCard
               title="BRAN FC Slot booker"
               description="This project is for booking football match slot for players of branfc club"
-              image="/images/branfc_project.png"
+              image="/ssb-portfolio/images/branfc_project.png"
               tags={["Typescript", "React", "Redux", "Node", "Express"]}
               stats={{ github: 18, stars: 36, forks: 12 }}
               liveLink={null}
@@ -291,7 +291,7 @@ export default function Home() {
             <ProjectCard
               title="ISSB"
               description="ISSB is a online course platform that is used to serve candidates to get pass ISSB exam and join Bangladesh army."
-              image="/images/issb_solution.png"
+              image="/ssb-portfolio/images/issb_solution.png"
               tags={["Javascript", "React", "Redux"]}
               stats={{ github: 18, stars: 36, forks: 12 }}
               liveLink={"https://www.issbsolution.com/"}
@@ -303,7 +303,7 @@ export default function Home() {
       </section>
 
       {/* Work Experience Section */}
-      <section className="py-16 bg-[#0F172A]">
+      <section id={"experience"} className="py-16 bg-[#0F172A]">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12 text-[#38BDF8]">{`<Work Experience/>`}</h2>
           <div className="max-w-3xl mx-auto space-y-12">
@@ -403,7 +403,7 @@ export default function Home() {
       </section>
 
       {/* Contact Section */}
-      <section className="py-16  bg-[#0F172A]">
+      <section id={"contact"} className="py-16  bg-[#0F172A]">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12 text-[#38BDF8]">{`<Get In Touch/>`}</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-4xl mx-auto">
