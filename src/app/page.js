@@ -113,7 +113,7 @@ export default function Home() {
               <a
                 className="flex items-center gap-2 "
                 href="/ssb-portfolio/cv/Sadat_Shahriar_Resume.pdf"
-                download="My_CV"
+                download="Sadat_Shahriar_Resume"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -537,7 +537,7 @@ export default function Home() {
                 <a
                   className="flex items-center gap-2 "
                   href="/ssb-portfolio/cv/Sadat_Shahriar_Resume.pdf"
-                  download="My_CV"
+                  download="Sadat_Shahriar_Resume"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
