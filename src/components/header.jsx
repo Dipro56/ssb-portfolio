@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -13,9 +14,9 @@ export default function Header() {
   return (
     <header className="bg-[#0B1221] shadow-sm sticky top-0 z-50">
       <div className="container mx-auto px-4">
-        <div className="flex justify-between items-center h-16">
+        <div className="flex justify-between items-center h-24">
           <Link href="/" className="text-2xl text-white font-bold">
-            JS
+            <Image src={"/images/my_logo.svg"} width={45} height={45} />
           </Link>
 
           {/* Mobile menu button */}

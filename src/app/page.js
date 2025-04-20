@@ -21,6 +21,7 @@ import { FaGithub } from "react-icons/fa";
 import emailjs from "@emailjs/browser";
 import { IoMail } from "react-icons/io5";
 import { FaLinkedin } from "react-icons/fa";
+import { FaSquareFacebook } from "react-icons/fa6";
 
 export default function Home() {
   const [userName, setUserName] = useState();
@@ -100,11 +101,38 @@ export default function Home() {
             </div>
 
             <p className="text-white">
-              I love to create scalable web and mobile applications. Also
-              solving complex problems with clean, efficient code.
+              "I focus on building scalable and efficient web and mobile
+              applications. I enjoy building and designing software products
+              with clean, optimized code, and providing maintainable solutions
+              as per client requirement."
             </p>
-            <button className="bg-blue-900 hover:bg-blue-800 px-4 py-2 rounded-[4px]">
-              Contact Me
+            <button
+              variant="outline"
+              className="flex bg-blue-900 hover:bg-blue-800 py-2 px-3 rounded-[4px] items-center gap-2"
+            >
+              <a
+                className="flex items-center gap-2 "
+                href="/cv/Sadat_Shahriar_Resume.pdf"
+                download="My_CV"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="h-4 w-4"
+                >
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                  <polyline points="7 10 12 15 17 10" />
+                  <line x1="12" y1="15" x2="12" y2="3" />
+                </svg>
+                Download Resume
+              </a>
             </button>
           </div>
           <div className="md:w-1/3 flex justify-end ">
@@ -493,28 +521,42 @@ export default function Home() {
                   <FaLinkedin className="h-5 w-5" />
                   <span>linkedin</span>
                 </Link>
+
+                <Link
+                  href={"https://www.facebook.com/shahriar.dipro/"}
+                  className="flex items-center gap-3 text-white hover:text-[#38BDF8]"
+                >
+                  <FaSquareFacebook className="h-5 w-5" />
+                  <span>facebook</span>
+                </Link>
               </div>
               <button
                 variant="outline"
                 className="flex bg-blue-900 hover:bg-blue-800 py-2 px-3 rounded-[4px] items-center gap-2"
               >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  className="h-4 w-4"
+                <a
+                  className="flex items-center gap-2 "
+                  href="/cv/Sadat_Shahriar_Resume.pdf"
+                  download="My_CV"
                 >
-                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
-                  <polyline points="7 10 12 15 17 10" />
-                  <line x1="12" y1="15" x2="12" y2="3" />
-                </svg>
-                Download Resume
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="h-4 w-4"
+                  >
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                    <polyline points="7 10 12 15 17 10" />
+                    <line x1="12" y1="15" x2="12" y2="3" />
+                  </svg>
+                  Download Resume
+                </a>
               </button>
             </div>
           </div>
@@ -528,17 +570,6 @@ export default function Home() {
             <p className="text-sm">
               © 2025 Sadat Shahriar All rights reserved.
             </p>
-            <div className="flex gap-6 mt-4 md:mt-0">
-              <Link href="#" className="text-sm hover:underline">
-                About
-              </Link>
-              <Link href="#" className="text-sm hover:underline">
-                Projects
-              </Link>
-              <Link href="#" className="text-sm hover:underline">
-                Contact
-              </Link>
-            </div>
           </div>
         </div>
       </footer>
