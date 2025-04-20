@@ -16,7 +16,11 @@ export default function Header() {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-24">
           <Link href="/" className="text-2xl text-white font-bold">
-            <Image src={"/images/my_logo.svg"} width={45} height={45} />
+            <Image
+              src={"/ssb-portfolio/images/my_logo.svg"}
+              width={45}
+              height={45}
+            />
           </Link>
 
           {/* Mobile menu button */}
