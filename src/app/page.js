@@ -81,7 +81,7 @@ export default function Home() {
               Hi, I&apos;m Sadat Shahriar
             </h1>
             <div className="typing-container text-white">
-              <h1 className="flex text-3xl font-bold">
+              <h1 className="flex text-xl md:text-3xl font-bold">
                 I am a{" "}
                 <span className="typing ml-2 text-[#00CF5D]">
                   {" "}
