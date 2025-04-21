@@ -138,7 +138,7 @@ export default function Home() {
           <div className="md:w-1/3 flex justify-end ">
             <div className="bg-blue-900 relative  rounded-lg overflow-hidden border-[4px] border-white">
               <Image
-                src="/ssb-portfolio/images/me.jpg"
+                src="/ssb-portfolio/images/my_image.jpg"
                 alt="Developer illustration"
                 width={350}
                 height={350}
